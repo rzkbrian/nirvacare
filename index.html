@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NirvaCare</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Carousel -->
+    <script src="js/carousel.js" defer></script>
+  </head>
+
+  <body>
+    <div class="body"></div>
+    <!-- Navbar  -->
+    <nav class="navbar" id="navbar">
+      <a href="#" class="navbar-logo"
+        ><img
+          src="Property/logo - nirvacare 1.png"
+          width="67.33px"
+          height="45.91px"
+      /></a>
+
+      <div class="navbar-nav">
+        <a href="#">Beranda</a>
+        <a href="tentang.html">Tentang NirvaCare</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="partnership.html">Partnership</a>
+        <a href="bantuan.html">Bantuan</a>
+      </div>
+
+      <div class="navbar-login">
+        <a id="login-btn" class="login-botton" href="login.html">Login</a>
+        <a id="register-btn" class="login-botton" href="register.html"
+          >Register</a
+        >
+        <a> <i id="humberger-menu" data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Hero Section -->
+    <div class="hero-bg">
+      <section class="hero" id="home">
+        <main class="content">
+          <div class="headline">
+            <h1>
+              Welfare of <br />
+              Indonesian <span> Pregnant</span> <br />
+              women
+            </h1>
+            <p>NIRVA CARE</p>
+          </div>
+          <img src="Property/asset-main-body-mom.png" />
+        </main>
+      </section>
+    </div>
+
+    <!-- Hero Section End -->
+
+    <!-- CTA Section -->
+
+    <section class="cta">
+      <main class="content">
+        <h1>
+          Kenalin, NirvaCare. <br />
+          Si Pembawa Perubahan
+        </h1>
+        <a href="partnership.html" class="cta-btn">Gabung</a>
+      </main>
+    </section>
+
+    <!-- Tentang Section -->
+    <section class="tentang">
+      <main class="tentang-content">
+        <h1>Tentang NirvaCare</h1>
+        <p>
+          Website psikologis ibu hamil dapat menjadi solusi yang potensial untuk
+          memberikan dukungan dan bimbingan kepada ibu hamil yang menghadapi
+          kecemasan selama kehamilan mereka. Aplikasi ini dapat menyediakan
+          sumber daya yang mudah diakses, informasi yang akurat, serta konseling
+          dari tenaga kesehatan yang berpengalaman, sehingga membantu ibu hamil
+          mengatasi kecemasan mereka dan menjalani kehamilan dengan lebih
+          tenang.
+        </p>
+      </main>
+    </section>
+
+    <!-- Review Section -->
+    <section class="review">
+      <main class="review-content">
+        <h1>Selalu Puas Dengan NirvaCare</h1>
+        <p>Memberikan layanan dengan sepenuh hati untuk mereka</p>
+
+        <div class="review-container">
+          <div class="review-box">
+            <div class="profile">
+              <img src="Property/review-profile-1.png" />
+              <h1>Kevin Febrian</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Turpis a tempor iaculis in
+              pharetra velit id at. Arcu nunc dignissim mi eu quam ut
+              laoreet.Lorem ipsum dolor sit amet consectetur.
+            </p>
+
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="ratingnumber">5/5</span>
+            </div>
+          </div>
+
+          <div class="review-box">
+            <div class="profile">
+              <img src="Property/review-profile-2.png" />
+              <h1>Barik Mauluda</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Turpis a tempor iaculis in
+              pharetra velit id at. Arcu nunc dignissim mi eu quam ut
+              laoreet.Lorem ipsum dolor sit amet consectetur.
+            </p>
+
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="ratingnumber">5/5</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="layanan">
+      <main class="layanan-container">
+        <img class="layanan-logo" src="Property/aset-layanan.png" />
+        <div class="layanan-content">
+          <h1>Layanan NirvaCare</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Turpis a temporLorem ipsum
+            dolor sit amet consectetur. Turpis a temporLorem i
+          </p>
+
+          <div class="accordion-main">
+            <div class="accordion-container" id="accordion1">
+              <div class="accordion-box" onclick="toggleAccordion(1)">
+                <div class="icon">
+                  <img src="Property/aset-nirvalove.png" />
+                </div>
+                <div class="title">
+                  <p>Nirva <br />Love</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nihil, modi.
+                </p>
+                <a href="layanan.html"
+                  ><i id="btn-layanan" data-feather="arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="accordion-container" id="accordion2">
+              <div class="accordion-box" onclick="toggleAccordion(2)">
+                <div class="icon">
+                  <img src="Property/aset-nirvahealth.png" />
+                </div>
+                <div class="title">
+                  <p>Nirva<br />Health</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas, alias.
+                </p>
+                <a href="layanan.html"
+                  ><i id="btn-layanan" data-feather="arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="accordion-container" id="accordion3">
+              <div class="accordion-box" onclick="toggleAccordion(3)">
+                <div class="icon">
+                  <img src="Property/aset-nirvababy.png" />
+                </div>
+                <div class="title">
+                  <p>Nirva <br />Baby</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut,
+                  magni?
+                </p>
+                <a href="layanan.html"
+                  ><i id="btn-layanan" data-feather="arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="accordion-container" id="accordion4">
+              <div class="accordion-box" onclick="toggleAccordion(4)">
+                <div class="icon">
+                  <img src="Property/aset-nirvameditation.png" />
+                </div>
+                <div class="title">
+                  <p>Nirva <br />Meditation</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  deserunt.
+                </p>
+                <a href="layanan.html"
+                  ><i id="btn-layanan" data-feather="arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="accordion-container" id="accordion5">
+              <div class="accordion-box" onclick="toggleAccordion(5)">
+                <div class="icon">
+                  <img src="Property/aset-nirvaconsultation.png" />
+                </div>
+                <div class="title">
+                  <p>Nirva <br />Consultation</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque, nesciunt.
+                </p>
+                <a href="layanan.html"
+                  ><i id="btn-layanan" data-feather="arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <!-- TIM KAMI  -->
+    <section class="kenalin-kami">
+      <div class="headline-kenalin">
+        <h1>Kenalin Kami</h1>
+        <p>
+          Tim yang membantu anda dalam memenuhi segala kebutuhan tentang
+          NirvaCare
+        </p>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+    <section class="carousel-container">
+      <div class="wrapper">
+        <i id="chevron-left" class="chevron" data-feather="chevron-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <img src="Property/tim-bint.png" draggable="false" />
+            </div>
+            <h2>Bintang R</h2>
+            <span>Position</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="Property/tim-barik.png" draggable="false" />
+            </div>
+            <h2>Barik M W</h2>
+            <span>Position</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="Property/tim-riyan.png" draggable="false" />
+            </div>
+            <h2>Riyan F</h2>
+            <span>Position</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="Property/tim-deta.png" draggable="false" />
+            </div>
+            <h2>Bernadeta R</h2>
+            <span>Position</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="Property/tim-rizki.jpeg" draggable="false" />
+            </div>
+            <h2>Rizki F</h2>
+            <span>Position</span>
+          </li>
+        </ul>
+        <i id="chevron-right" class="chevron" data-feather="chevron-right"></i>
+      </div>
+    </section>
+
+    <!--footer -->
+    <section class="footer">
+      <div class="footer-cta">
+        <div class="gabung-content">
+          <h3>NirvaCare</h3>
+          <p>
+            Platform inovatif yang dirancang khusus untuk memberikan solusi bagi
+            ibu hamil, mulai dari tahap awal kehamilan hingga pasca kelahiran.
+          </p>
+          <button
+            onclick="location.href='partnership.html' "
+            class="gabung-btn"
+          >
+            Gabung
+          </button>
+        </div>
+        <img src="Property/Mask group.png" />
+      </div>
+
+      <!-- <div class="footer-bg"></div> -->
+      <div class="footer-container">
+        <div class="main-content">
+          <img src="Property/logo - nirvacare 1.png" />
+
+          <div class="footer-content">
+            <div class="content-list">
+              <h5 class="title">Perusahaan</h5>
+              <a href="#">
+                <p>Beranda</p>
+              </a>
+              <a href="tentang.html">
+                <p>Tentang Kami</p>
+              </a>
+              <a href="layanan.html">
+                <p>Layanan</p>
+              </a>
+            </div>
+
+            <div class="content-list">
+              <h5 class="title">Gabung NirvaCare</h5>
+              <a href="partnership.html">
+                <p>Daftar Mitra</p>
+              </a>
+              <a href="partnership.html">
+                <p>Daftar Kolaborator</p>
+              </a>
+            </div>
+
+            <div class="content-list">
+              <h5 class="title">Lainnya</h5>
+              <a href="bantuan.html">
+                <p>Syarat dan Ketentuan</p>
+              </a>
+              <a href="bantuan.html">
+                <p>Kebijakan Privasi</p>
+              </a>
+              <a href="bantuan.html">
+                <p>Bantuan</p>
+              </a>
+            </div>
+
+            <div class="content-list">
+              <h5 class="title">Ikuti Kami</h5>
+              <div class="sosmed-logo">
+                <a href="https://twitter.com"
+                  ><img src="Property/TwitterLogo.png"
+                /></a>
+                <a class="logo" href="https://instagram.com"
+                  ><img src="Property/instagramLogo.png"
+                /></a>
+                <a class="logo" href="https://facebook.com"
+                  ><img src="Property/facebookLogo.png"
+                /></a>
+              </div>
+              <h5 class="title" id="appstore">Unduh Aplikasi</h5>
+              <a href="https://www.apple.com/app-store/"
+                ><img src="Property/AppleLogo.png"
+              /></a>
+              <a class="logo" href="https://play.google.com/store/"
+                ><img src="Property/playstoreLogo.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer-team">
+            <div class="hr-line"></div>
+            <p>@2023 NirvaCare | Development by NirvaCare Team</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
