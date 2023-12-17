@@ -164,6 +164,7 @@ body {
   position: relative;
   z-index: -10;
   background: #3d3a4d 97.99%;
+  background-size: cover;
 }
 
 .hero .content {
@@ -1626,6 +1627,7 @@ body {
     align-items: center;
     margin: 0 0.508rem;
     color: var(--White);
+    cursor: pointer;
   }
 
   .navbar .navbar-nav {
